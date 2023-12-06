@@ -2,7 +2,12 @@
  *
  * Created by: Mr. Coxall
  * Created on: Sep 2020
- * This program ...
+ * This program uses the bluetooth radios
 */
 
-basic.showString('Hello, World!')
+// setup
+basic.showIcon(IconNames.Happy)
+
+input.onButtonPressed(Button.A, function () {
+  basic.showIcon(IconNames.Happy)
+})
